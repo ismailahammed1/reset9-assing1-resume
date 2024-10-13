@@ -1,0 +1,217 @@
+body {
+  font-family: "Azeret Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+nav h2 {
+  font-weight: 500; 
+  margin: 0;
+  font-size: 24px;
+}
+
+nav button {
+  font-weight: 700; /* Bold */
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #0f9a82;
+}
+/* Banner Styles */
+.banner {
+  background-image: url("/assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 652px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_content {
+  text-align: center;
+  color: rgb(8, 8, 8);
+  width: 998px;
+}
+
+.banner h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  width: 998px;
+
+  
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
+color: rgb(105, 100, 107);
+
+}
+
+.banner button {
+  font-weight: 700;
+  padding: 10px 20px;
+  border: 2px solid white;
+  background-color: darkcyan;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.banner button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Centering the .develope section */
+.develope {
+    width: 100%;
+    max-width: 1140px; 
+    margin: 0 auto; 
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    background-color: rgb(255, 249, 249);
+  }
+ 
+  
+  .develope-header, .developer-card-item {
+    max-width: 1140px;
+  }
+  
+  .develope h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+ .develope-header p {
+    font-size: 18px;
+    font-weight: 200;
+    color: grey;
+    margin-top: 20px;
+  }
+  
+
+  .developer-card{
+    width: 1140px;
+    height: 336px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    text-align: left;
+
+  }
+  .developer-card button{
+  font-weight: 700; 
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  }
+  .developer-card button:hover{
+    background-color: #0f9a82;
+  }
+  .developer-card-item{
+    width: 487px;
+    padding: 0 30px;
+  }
+  .developer-card img{
+    height: 240px;
+    width: 274px;
+    padding: 5px;
+    margin-top: 30px;
+  }
+    
+  .developer-card-item h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    color: rgb(78, 77, 77);
+  }
+  
+  .developer-card-item p {
+    font-size: 18px;
+    margin-top: 18px;
+    color: grey;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  .insparetion {
+    width: 1140px; 
+    margin: 0 auto; 
+    gap: 150px; 
+    text-align: left;  
+    align-items: center; 
+}
+
+.insparetion-card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.insparetion-card p {
+    text-align: center;
+}
+
+iframe {
+    width: 100%; 
+    max-width: 1076px; 
+    height: 550px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
+  /* Footer Styles */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 200px;
+    align-items: center;
+  }
+
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  footer ul a img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+  }
