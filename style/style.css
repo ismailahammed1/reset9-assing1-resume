@@ -156,7 +156,7 @@ color: rgb(105, 100, 107);
   .developer-card-item p {
     font-size: 18px;
     margin-top: 18px;
-    color: grey;
+    color: rgb(158, 158, 158);
     margin-top: 20px;
     text-align: justify;
   }
@@ -175,9 +175,9 @@ color: rgb(105, 100, 107);
     align-items: center; 
     margin-bottom: 20px;
 }
-
 .insparetion-card p {
     text-align: center;
+    color: rgb(160, 157, 157);
 }
 
 iframe {
@@ -189,7 +189,52 @@ iframe {
     margin-right: auto; 
 }
 
+.my-target {
+  width: 100%; 
+  max-width: 1140px; 
+  margin: 0 auto; 
+  padding: 50px 0;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; /* Center the text */
+}
 
+.my-target-header {
+  margin-bottom: 24px; 
+}
+
+.my-target h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.my-target p {
+  font-size: 18px;
+  max-width: 1110px; 
+  text-align: center;
+  color: rgb(160, 157, 157);
+}
+
+.my-target-card {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 100%;
+  max-width: 1140px;
+}
+
+.my-target-html {
+  width: 300px; 
+  height: 200px; 
+  background-color: rgb(194, 174, 174); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  border-radius: 8px;
+}
 
   /* Footer Styles */
   footer {
