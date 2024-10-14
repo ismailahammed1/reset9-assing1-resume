@@ -41,13 +41,13 @@ nav button:hover {
 }
 /* Banner Styles */
 .banner {
-  background-image: url("/assets/Hero-bg.png");
-  background-size: cover;
-  background-position: center;
-  height: 652px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url("../assets/Hero-bg.png"); 
+  background-size: cover; 
+  background-position: center; 
+  height: 652px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .banner_content {
@@ -199,7 +199,7 @@ iframe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center; /* Center the text */
+  text-align: center;
 }
 
 .my-target-header .Next-Target-Header {
@@ -233,7 +233,7 @@ iframe {
 .my-target-html {
   width: 364px;
   height: 300px;
-  background-color: #eeeae9;
+  background-color: #e7e0de;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -243,7 +243,6 @@ iframe {
   box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.2);
   padding: 20px;
   border-radius: 8px;
-  background-color: #fff;
 }
 
 .my-target-html img {
@@ -262,7 +261,6 @@ iframe {
   box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.2);
   padding: 20px;
   border-radius: 8px;
-  background-color: #fff;
   background-color: rgb(234, 234, 238);
   display: flex;
   flex-direction: column;
@@ -295,7 +293,6 @@ iframe {
   box-shadow: 0 4px 8px rgba(0, 0, 0.2, 0.2);
   padding: 20px;
   border-radius: 8px;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
