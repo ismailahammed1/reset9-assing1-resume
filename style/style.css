@@ -41,6 +41,7 @@ nav button:hover {
 }
 /* Banner Styles */
 .banner {
+<<<<<<< HEAD
   background-image: url("../assets/Hero-bg.png"); 
   background-size: cover; 
   background-position: center; 
@@ -48,6 +49,15 @@ nav button:hover {
   display: flex; 
   justify-content: center; 
   align-items: center; 
+=======
+  background-image: url("../assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 652px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+>>>>>>> 87eba3d90bcdd8404c22bcd926064d00c7d58932
 }
 
 .banner_content {
