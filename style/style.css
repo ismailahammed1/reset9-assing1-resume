@@ -212,7 +212,7 @@ iframe {
   font-size: 18px;
   max-width: 1110px;
   text-align: center;
-  color: rgb(160, 157, 157);
+  color: rgb(97, 92, 92);
 }
 
 .my-target-card {
@@ -220,20 +220,24 @@ iframe {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  width: 100%;
-  max-width: 1140px;
+  width: 1140px;
 }
+
 
 .my-target-html {
   width: 364px;
   height: 300px;
-  background-color: rgb(194, 174, 174);
+  background-color: #eeeae9;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   border-radius: 8px;
   padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .my-target-html img {
@@ -241,22 +245,19 @@ iframe {
   margin-bottom: 10px;
 }
 
-.my-target-html h4 {
+.my-target-html h3 {
   margin: 10px 0;
   text-align: left;
 }
 
-/* .my-target-html p {
-  text-align: left;
-  margin: 5px 0; 
-  color: rgb(63, 63, 65); 
-} */
-
 .my-target-Css {
   width: 364px;
   height: 300px;
-
-  background-color: rgb(174, 174, 194);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  background-color: rgb(234, 234, 238);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -270,7 +271,7 @@ iframe {
   margin-bottom: 10px;
 }
 
-.my-target-Css h4 {
+.my-target-Css h3 {
   margin: 10px 0;
   text-align: left;
 }
@@ -284,7 +285,7 @@ iframe {
 .my-target-js {
   width: 364px;
   height: 300px;
-  background-color: rgb(194, 194, 174);
+  background-color: rgb(236, 236, 233);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -298,7 +299,7 @@ iframe {
   margin-bottom: 10px;
 }
 
-.my-target-js h4 {
+.my-target-js h3 {
   margin: 10px 0;
   text-align: left;
 }
@@ -391,13 +392,13 @@ a:hover {
   z-index: 1;
 }
 
-.Support-Head, .contact-form {
+.Support-Head,
+.contact-form {
   position: relative;
   z-index: 2;
 }
 .Support-Head {
-  padding: 64px ;
-
+  padding: 64px;
 }
 .Support-Head h1 {
   margin: 0;
@@ -426,8 +427,8 @@ a:hover {
 }
 
 .contact-form input[type="text"]::placeholder {
-  color: #aaa; 
-  font-style: italic; 
+  color: #aaa;
+  font-style: italic;
 }
 
 .contact-form input[type="submit"] {
