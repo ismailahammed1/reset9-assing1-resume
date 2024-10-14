@@ -17,7 +17,7 @@ nav {
 }
 
 nav h2 {
-  font-weight: 500; 
+  font-weight: 500;
   margin: 0;
   font-size: 24px;
 }
@@ -55,16 +55,13 @@ nav button:hover {
   font-weight: 700;
   margin-bottom: 10px;
   width: 998px;
-
-  
 }
 
 .banner p {
   font-size: 18px;
   margin-bottom: 20px;
   text-align: justify;
-color: rgb(105, 100, 107);
-
+  color: rgb(105, 100, 107);
 }
 
 .banner button {
@@ -84,144 +81,144 @@ color: rgb(105, 100, 107);
 
 /* Centering the .develope section */
 .develope {
-    width: 100%;
-    max-width: 1140px; 
-    margin: 0 auto; 
-    padding: 50px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
-    text-align: center;
-    background-color: rgb(255, 249, 249);
-  }
- 
-  
-  .develope-header, .developer-card-item {
-    max-width: 1140px;
-  }
-  
-  .develope h1 {
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
-  
- .develope-header p {
-    font-size: 18px;
-    font-weight: 200;
-    color: grey;
-    margin-top: 20px;
-  }
-  
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(255, 249, 249);
+}
 
-  .developer-card{
-    width: 1140px;
-    height: 336px;
-    margin-top: 12px;
-    display: flex;
-    justify-content: space-between;
-    gap: 150px;
-    text-align: left;
+.develope-header,
+.developer-card-item {
+  max-width: 1140px;
+}
 
-  }
-  .developer-card button{
-  font-weight: 700; 
+.develope h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.develope-header p {
+  font-size: 18px;
+  font-weight: 200;
+  color: grey;
+  margin-top: 20px;
+}
+
+.developer-card {
+  width: 1140px;
+  height: 336px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  text-align: left;
+}
+.developer-card button {
+  font-weight: 700;
   border: 1px solid black;
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 5px;
-  }
-  .developer-card button:hover{
-    background-color: #0f9a82;
-  }
-  .developer-card-item{
-    width: 487px;
-    padding: 0 30px;
-  }
-  .developer-card img{
-    height: 240px;
-    width: 274px;
-    padding: 5px;
-    margin-top: 30px;
-  }
-    
-  .developer-card-item h2 {
-    font-size: 30px;
-    font-weight: 900;
-    margin-bottom: 10px;
-    color: rgb(78, 77, 77);
-  }
-  
-  .developer-card-item p {
-    font-size: 18px;
-    margin-top: 18px;
-    color: rgb(158, 158, 158);
-    margin-top: 20px;
-    text-align: justify;
-  }
-  .insparetion {
-    width: 1140px; 
-    margin: 0 auto; 
-    gap: 150px; 
-    text-align: left;  
-    align-items: center; 
+}
+.developer-card button:hover {
+  background-color: #0f9a82;
+}
+.developer-card-item {
+  width: 487px;
+  padding: 0 30px;
+}
+.developer-card img {
+  height: 240px;
+  width: 274px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.developer-card-item h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: rgb(78, 77, 77);
+}
+
+.developer-card-item p {
+  font-size: 18px;
+  margin-top: 18px;
+  color: rgb(158, 158, 158);
+  margin-top: 20px;
+  text-align: justify;
+}
+.insparetion {
+  width: 1140px;
+  margin: 0 auto;
+  gap: 150px;
+  text-align: left;
+  align-items: center;
 }
 
 .insparetion-card {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .insparetion-card p {
-    text-align: center;
-    color: rgb(160, 157, 157);
+  text-align: center;
+  color: rgb(160, 157, 157);
 }
 
 iframe {
-    width: 100%; 
-    max-width: 1076px; 
-    height: 550px;
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
+  width: 100%;
+  max-width: 1076px;
+  height: 550px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.my-target, 
+.my-target,
 .Next-Target {
-  width: 100%; 
-  max-width: 1140px; 
-  margin: 0 auto; 
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
   padding: 50px 0;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center; /* Center the text */
 }
 
-.my-target-header .Next-Target-Header{
-  margin-bottom: 24px; 
+.my-target-header .Next-Target-Header {
+  margin-bottom: 24px;
 }
 
-.my-target h1,.Next-Target-Header h1 {
+.my-target h1,
+.Next-Target-Header h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 16px;
 }
 
-.my-target p,.Next-Target-Header p {
+.my-target p,
+.Next-Target-Header p {
   font-size: 18px;
-  max-width: 1110px; 
+  max-width: 1110px;
   text-align: center;
   color: rgb(160, 157, 157);
 }
 
 .my-target-card {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   gap: 24px;
   width: 100%;
   max-width: 1140px;
@@ -229,88 +226,87 @@ iframe {
 
 .my-target-html {
   width: 364px;
-  height:300px; 
-  background-color: rgb(194, 174, 174); 
-  display: flex; 
+  height: 300px;
+  background-color: rgb(194, 174, 174);
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
-  align-items: flex-start; 
+  justify-content: flex-start;
+  align-items: flex-start;
   border-radius: 8px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .my-target-html img {
-  width: 60px; 
-  margin-bottom: 10px; 
+  width: 60px;
+  margin-bottom: 10px;
 }
 
 .my-target-html h4 {
-  margin: 10px 0; 
-  text-align: left; 
+  margin: 10px 0;
+  text-align: left;
 }
 
-.my-target-html p {
+/* .my-target-html p {
   text-align: left;
   margin: 5px 0; 
   color: rgb(63, 63, 65); 
-}
+} */
 
 .my-target-Css {
   width: 364px;
-  height:300px; 
+  height: 300px;
 
-  background-color: rgb(174, 174, 194); 
-  display: flex; 
+  background-color: rgb(174, 174, 194);
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
-  align-items: flex-start; 
+  justify-content: flex-start;
+  align-items: flex-start;
   border-radius: 8px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .my-target-Css img {
-  width: 60px; 
-  margin-bottom: 10px; 
+  width: 60px;
+  margin-bottom: 10px;
 }
 
 .my-target-Css h4 {
-  margin: 10px 0; 
-  text-align: left; 
+  margin: 10px 0;
+  text-align: left;
 }
 
-.my-target-Css p {
+/* .my-target-Css p {
   text-align: left;
   margin: 5px 0; 
   color: rgb(63, 63, 65); 
-}
-
+} */
 
 .my-target-js {
   width: 364px;
-  height:300px; 
-  background-color: rgb(194, 194, 174); 
-  display: flex; 
+  height: 300px;
+  background-color: rgb(194, 194, 174);
+  display: flex;
   flex-direction: column;
-  justify-content: flex-start; 
-  align-items: flex-start; 
+  justify-content: flex-start;
+  align-items: flex-start;
   border-radius: 8px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .my-target-js img {
-  width: 60px; 
-  margin-bottom: 10px; 
+  width: 60px;
+  margin-bottom: 10px;
 }
 
 .my-target-js h4 {
-  margin: 10px 0; 
-  text-align: left; 
+  margin: 10px 0;
+  text-align: left;
 }
 
-.my-target-js p {
+.my-target-card p {
   text-align: left;
-  margin: 5px 0; 
-  color: rgb(63, 63, 65); 
+  margin: 5px 0;
+  color: rgb(63, 63, 65);
 }
 
 a {
@@ -323,9 +319,8 @@ a {
 
 a:hover {
   color: #0f9a82;
-  text-decoration: underline; 
+  text-decoration: underline;
 }
-
 
 .Next-Target {
   width: 1140px;
@@ -351,7 +346,7 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .Next-Target-card-react img {
-  width: 94px;
+  width: 108px;
   height: 108px;
   padding: 50px;
 }
@@ -371,29 +366,106 @@ a:hover {
   line-height: 1.5;
   color: #555;
 }
+.Support {
+  position: relative;
+  background-image: url("../assets/handshake.jpg");
+  max-width: 1140px;
+  height: 313px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+.Support::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
 
+.Support-Head, .contact-form {
+  position: relative;
+  z-index: 2;
+}
+.Support-Head {
+  padding: 64px ;
 
-  /* Footer Styles */
-  footer {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    margin: 0 200px;
-    align-items: center;
-  }
+}
+.Support-Head h1 {
+  margin: 0;
+  font-size: 38px;
+}
 
-  
-  footer p {
-    margin: 0;
-  }
-  
-  footer ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  footer ul a img {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-  }
+.Support-Head p {
+  margin: 10px 0;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 684px;
+  align-items: center;
+  margin: auto;
+}
+
+.contact-form input[type="text"] {
+  padding: 10px;
+  margin-top: 10px;
+  width: 548px;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact-form input[type="text"]::placeholder {
+  color: #aaa; 
+  font-style: italic; 
+}
+
+.contact-form input[type="submit"] {
+  padding: 10px;
+  margin-top: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #0f9a82;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  margin: 0 200px;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer ul a img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
